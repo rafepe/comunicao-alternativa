@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#fixedResultsContainer {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os itens */
+    margin-bottom: 20px;
+}
+
+.fixedPictogram {
+    width: 18%; /* Ajuste conforme necessário */
+    border: 2px solid grey; /* Borda preta */
+    border-radius: 0px;
+    padding: 5px;
+}
+
+#results {
+    text-align: left;
+}
+
+.fixedPictogram img {
+    width: 100%;
+    height: auto;
+}
